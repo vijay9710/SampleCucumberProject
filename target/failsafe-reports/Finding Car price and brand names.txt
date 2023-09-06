@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: Finding Car price and brand names
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 90.221 s <<< FAILURE! - in Finding Car price and brand names
+User finding Car price and Brand names(Finding Car price and brand names)  Time elapsed: 22.345 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@23ec0aba (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding Car price and Brand names(Finding Car price and brand names)  Time elapsed: 22.671 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@6e5a30f1 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding Car price and Brand names(Finding Car price and brand names)  Time elapsed: 22.885 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@4741366c (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding Car price and Brand names(Finding Car price and brand names)  Time elapsed: 22.313 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@2f8d2f55 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+

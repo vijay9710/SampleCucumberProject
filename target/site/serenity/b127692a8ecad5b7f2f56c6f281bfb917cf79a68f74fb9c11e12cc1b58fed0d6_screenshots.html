@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Way2Automation Serenity Project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="4306c797316cddfcab98873ec2c9dc6ab47176fb3ea118fc40c1ebbf9ec68a4b.html">Finding Car Price And Brand Names</a></span>
+                > <span class="truncate-60"><a
+                    href="b127692a8ecad5b7f2f56c6f281bfb917cf79a68f74fb9c11e12cc1b58fed0d6.html">User finding Car price and Brand names </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-07-2020 00:37</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Finding Car Price And Brand Names </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I want to find new cars price and brand names
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="error-color">User finding Car price and Brand names
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When user choose menu as new cars<br>Then user clicks on find new cars<br>And user search for &lt;brand&gt; car<br>And user find car name and price<br>And user updates the name and price in a file for each &lt;brand&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Timeout exception: Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@23ec0aba (tried for 10 second(s) with 50 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'Driver info: driver.version: unknownBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.TimeoutException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>base.BasePage.getText(BasePage.java:103)<br />base.BasePage.getCarPageHeading(BasePage.java:118)<br />steps.CarWaleSteps.findNewCars(CarWaleSteps.java:44)<br />cucumbersteps.NewCarSteps.user_search_for_car(NewCarSteps.java:54)<br />✽.user search for Kia car(src/test/resources/features/findcarpriceandname.feature:11)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8589918502613744829.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" Example: {brand=Kia}" width="1920"/>
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" Given user navigate to the website" width="1920"/>
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" Navigating to Carwale.com website HomePage" width="1920"/>
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" Given user navigate to the website (completed)" width="1920"/>
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" When user choose menu as new cars" width="1920"/>
+                <img src="45695a648ff5eed147cb95d1d22ffd9fa99078c1a97181ff7430066f020ebb6b.png" title=" Navigate to New Car menu" width="1920"/>
+                <img src="15633d79dcffa561f10cca5e2b8a96250de1d90e4acccc81b5e4e70a65fe03fa.png" title=" Navigate to New Car menu (completed)" width="1920"/>
+                <img src="15633d79dcffa561f10cca5e2b8a96250de1d90e4acccc81b5e4e70a65fe03fa.png" title=" When user choose menu as new cars (completed)" width="1920"/>
+                <img src="15633d79dcffa561f10cca5e2b8a96250de1d90e4acccc81b5e4e70a65fe03fa.png" title=" Then user clicks on find new cars" width="1920"/>
+                <img src="15633d79dcffa561f10cca5e2b8a96250de1d90e4acccc81b5e4e70a65fe03fa.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Navigate to Find New Car menu (completed)" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Then user clicks on find new cars (completed)" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" And user search for Kia car" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Finding Car Brand" width="1920"/>
+                <img src="d7970783ea801ba2e7afbdffc26697d23bf6fe84ec574831f3dec55f352f3eff.png" title=" Finding Car Brand" width="1920"/>
+                <img src="5bcd0375142d41a16f9a1167c4828e8a4561cceb3fae93f217cc75b6721dc3b4.png" title=" Finding Car Brand (completed)" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" Example: {brand=Toyota}" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" Given user navigate to the website" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" Navigating to Carwale.com website HomePage" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" Given user navigate to the website (completed)" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" When user choose menu as new cars" width="1920"/>
+                <img src="640c6654fd8f102a9ea24bd2e951bc658b99a9a1bfdff8dec1e8a33498df7e3f.png" title=" Navigate to New Car menu" width="1920"/>
+                <img src="1fc8329669e62b6d9cfe55dea478eb38eb8f3c9f0e6a73bb770e96bd99010838.png" title=" Navigate to New Car menu (completed)" width="1920"/>
+                <img src="1fc8329669e62b6d9cfe55dea478eb38eb8f3c9f0e6a73bb770e96bd99010838.png" title=" When user choose menu as new cars (completed)" width="1920"/>
+                <img src="1fc8329669e62b6d9cfe55dea478eb38eb8f3c9f0e6a73bb770e96bd99010838.png" title=" Then user clicks on find new cars" width="1920"/>
+                <img src="1fc8329669e62b6d9cfe55dea478eb38eb8f3c9f0e6a73bb770e96bd99010838.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Navigate to Find New Car menu (completed)" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Then user clicks on find new cars (completed)" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" And user search for Toyota car" width="1920"/>
+                <img src="b641d2a82e41fe4229b011c0066e8e1006eb2c8c6d21555ce4f7a1e36c3c6d02.png" title=" Finding Car Brand" width="1920"/>
+                <img src="26a676dd6cefa0a5ac4a1bf3714e4642bbbdf3b5da254340e87a7b3b5bbc1ef7.png" title=" Finding Car Brand" width="1920"/>
+                <img src="22bc6cb9270466af80bd24f18c9c8b9614ea4e520e0ada0b66db945465167cb3.png" title=" Finding Car Brand (completed)" width="1920"/>
+                <img src="5c3b34c4c3ad7eef395dbab6145eeeb4c1c018c9d5943226c5b6801b18e98f48.png" title=" Example: {brand=Hyundai}" width="1920"/>
+                <img src="5c3b34c4c3ad7eef395dbab6145eeeb4c1c018c9d5943226c5b6801b18e98f48.png" title=" Given user navigate to the website" width="1920"/>
+                <img src="5c3b34c4c3ad7eef395dbab6145eeeb4c1c018c9d5943226c5b6801b18e98f48.png" title=" Navigating to Carwale.com website HomePage" width="1920"/>
+                <img src="5c3b34c4c3ad7eef395dbab6145eeeb4c1c018c9d5943226c5b6801b18e98f48.png" title=" When user choose menu as new cars" width="1920"/>
+                <img src="5c3b34c4c3ad7eef395dbab6145eeeb4c1c018c9d5943226c5b6801b18e98f48.png" title=" Navigate to New Car menu" width="1920"/>
+                <img src="11f8e85fb8b5b86cd13f992fc3a06025af675daa827bd6b4272f94f6c1feb8ce.png" title=" Navigate to New Car menu (completed)" width="1920"/>
+                <img src="11f8e85fb8b5b86cd13f992fc3a06025af675daa827bd6b4272f94f6c1feb8ce.png" title=" When user choose menu as new cars (completed)" width="1920"/>
+                <img src="11f8e85fb8b5b86cd13f992fc3a06025af675daa827bd6b4272f94f6c1feb8ce.png" title=" Then user clicks on find new cars" width="1920"/>
+                <img src="11f8e85fb8b5b86cd13f992fc3a06025af675daa827bd6b4272f94f6c1feb8ce.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="294797b00ca748f192d7ab1a727c1f897bf7c4962bad354d0198abd1b39ac2b0.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="294797b00ca748f192d7ab1a727c1f897bf7c4962bad354d0198abd1b39ac2b0.png" title=" Navigate to Find New Car menu (completed)" width="1920"/>
+                <img src="294797b00ca748f192d7ab1a727c1f897bf7c4962bad354d0198abd1b39ac2b0.png" title=" Then user clicks on find new cars (completed)" width="1920"/>
+                <img src="294797b00ca748f192d7ab1a727c1f897bf7c4962bad354d0198abd1b39ac2b0.png" title=" And user search for Hyundai car" width="1920"/>
+                <img src="294797b00ca748f192d7ab1a727c1f897bf7c4962bad354d0198abd1b39ac2b0.png" title=" Finding Car Brand" width="1920"/>
+                <img src="e81ff005b87a2954d1660fa9597abe6f9c74f919db0703a7e1eb030d7c0c9571.png" title=" Finding Car Brand" width="1920"/>
+                <img src="7cdcc9005f1a2c27cc6264ab693e626740868a2d3ca7781a8b8292135b984c32.png" title=" Finding Car Brand (completed)" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" Example: {brand=Honda}" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" Given user navigate to the website" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" Navigating to Carwale.com website HomePage" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" Given user navigate to the website (completed)" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" When user choose menu as new cars" width="1920"/>
+                <img src="600903cd69f5e2f7972a50dacc9efd1874462ba15d4dc7c00c4a7c158a4c4690.png" title=" Navigate to New Car menu" width="1920"/>
+                <img src="20a563869cd69a4256393ffa8e1475c0b1fd8382b7698fc50455e675aecb5fe0.png" title=" Navigate to New Car menu (completed)" width="1920"/>
+                <img src="20a563869cd69a4256393ffa8e1475c0b1fd8382b7698fc50455e675aecb5fe0.png" title=" When user choose menu as new cars (completed)" width="1920"/>
+                <img src="20a563869cd69a4256393ffa8e1475c0b1fd8382b7698fc50455e675aecb5fe0.png" title=" Then user clicks on find new cars" width="1920"/>
+                <img src="20a563869cd69a4256393ffa8e1475c0b1fd8382b7698fc50455e675aecb5fe0.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="425a26751b27eb2c78baf0558bce7785ded4e08ba62c01d8ff040b38dda1fc97.png" title=" Navigate to Find New Car menu" width="1920"/>
+                <img src="425a26751b27eb2c78baf0558bce7785ded4e08ba62c01d8ff040b38dda1fc97.png" title=" Navigate to Find New Car menu (completed)" width="1920"/>
+                <img src="425a26751b27eb2c78baf0558bce7785ded4e08ba62c01d8ff040b38dda1fc97.png" title=" Then user clicks on find new cars (completed)" width="1920"/>
+                <img src="425a26751b27eb2c78baf0558bce7785ded4e08ba62c01d8ff040b38dda1fc97.png" title=" And user search for Honda car" width="1920"/>
+                <img src="425a26751b27eb2c78baf0558bce7785ded4e08ba62c01d8ff040b38dda1fc97.png" title=" Finding Car Brand" width="1920"/>
+                <img src="c51d92bf2e62828b4718425127a29217545b88deccd1efd076dcc949841412d0.png" title=" Finding Car Brand" width="1920"/>
+                <img src="86d96ebc5ee00295a447ae6c3fb98fc78485364c84ebe35c66f329d3395bd424.png" title=" Finding Car Brand (completed): <span class='error-color'>ERROR</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="Finding Car price and brand names" skipped="0" tests="4" time="22.35" timestamp="2020-07-07 12:37:43"><testcase name="User finding Car price and Brand names"><error message="Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@23ec0aba (tried for 10 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@23ec0aba (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@23ec0aba (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown&#13;
+base.BasePage.getText(BasePage.java:103)&#13;
+base.BasePage.getCarPageHeading(BasePage.java:118)&#13;
+steps.CarWaleSteps.findNewCars(CarWaleSteps.java:44)&#13;
+cucumbersteps.NewCarSteps.user_search_for_car(NewCarSteps.java:54)&#13;
+✽.user search for Kia car(src/test/resources/features/findcarpriceandname.feature:11)&#13;
+</system-err></testcase></testsuite>

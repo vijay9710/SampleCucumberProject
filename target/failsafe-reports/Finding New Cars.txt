@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: Finding New Cars
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 96.308 s <<< FAILURE! - in Finding New Cars
+User finding a new car(Finding New Cars)  Time elapsed: 26.628 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@11b2ce (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding a new car(Finding New Cars)  Time elapsed: 22.646 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@743057a8 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding a new car(Finding New Cars)  Time elapsed: 23.568 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@6b8e1fe8 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
+User finding a new car(Finding New Cars)  Time elapsed: 23.455 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for net.serenitybdd.core.pages.RenderedPageObjectView$$Lambda$376/1969095832@279e0e34 (tried for 10 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1BDQC6B', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+
